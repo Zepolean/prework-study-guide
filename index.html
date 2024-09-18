@@ -55,9 +55,19 @@
           <li><b>git commit -m "commit message":</b> Commit changes to head (but not to the remote repository)</li>
           <li><b>git push origin master:</b> Sends changes to the master branch of your remote repository</li>
           <li><b>List of basic Git commands:</b> <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">here</a></li>
-
         </ul>
-        
+        <h3>How to create/add upon branches in Git:</h3>
+          <ol>
+            <li>Check what branch you're currently on to double-check if you're on the intended branch.</li>
+            <li>To create a feature branch, use `git checkout -b feature/"name of branch"</li>
+            <li>To navigate to an existing branch, use `git checkout "name of branch"</li>
+            <li>Once you've made changes to your branch, we are going to stage the changes by using `git add -A` to stage <u>ALL</u> changes.</u></li>
+            <li>After the changes are staged, we're going to commit the changes by using `git commit -m "commit message"` (add what main change you made in the commit message).</li>
+            <li>Before we push the commit to the repo, we're going to double-check if our branch is synced to the remote base branch by using `git pull origin main`.</li>
+            <li>After the local branch has synced with the remote base branch, we will push our changes to the remote branch by using `git push origin "branch name".</li>
+            <li>After you push the branch, it should appear in GitHub as a PR! (pull request)</li>
+            <li>Finally, after all said and done, we're going to update our local repository and merge our code by navigating to our main branch by using `git checkout main` then `git pull origin main` to resync!</li>
+          </ol>
       </section>
 
       <section class="card" id="javascript-section">
