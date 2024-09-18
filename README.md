@@ -15,7 +15,7 @@ Each section has its own notes. Additionally, when opening the <ins>Chrome Dev T
 
 ## ~~Credits~~
 
-~~NA~~
+~~N/A~~
 
 
 ## License
