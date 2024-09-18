@@ -42,7 +42,7 @@
 
       <section class="card" id="git-section">
         <h2>Git</h2>
-        <ul>
+        <ul id="hidden">
           <li></li>
         </ul>
         <h3>List of useful basic git commands</h3>
@@ -57,16 +57,16 @@
           <li><b>List of basic Git commands:</b> <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">here</a></li>
         </ul>
         <h3>How to create/add upon branches in Git:</h3>
-          <ol>
-            <li>Check what branch you're currently on to double-check if you're on the intended branch.</li>
-            <li>To create a feature branch, use `git checkout -b feature/"name of branch"</li>
-            <li>To navigate to an existing branch, use `git checkout "name of branch"</li>
-            <li>Once you've made changes to your branch, we are going to stage the changes by using `git add -A` to stage <u>ALL</u> changes.</u></li>
-            <li>After the changes are staged, we're going to commit the changes by using `git commit -m "commit message"` (add what main change you made in the commit message).</li>
-            <li>Before we push the commit to the repo, we're going to double-check if our branch is synced to the remote base branch by using `git pull origin main`.</li>
-            <li>After the local branch has synced with the remote base branch, we will push our changes to the remote branch by using `git push origin "branch name".</li>
+          <ol class="ol-git">
+            <li>Check what branch you're currently on to double-check if you're on the intended branch by using <b>git status</b>.</li>
+            <li>To create a feature branch, use <b>git checkout -b feature/"name of branch"</b></li>
+            <li>To navigate to an existing branch, use <b>git checkout "name of branch</b></li>
+            <li>Once you've made changes to your branch, we are going to stage the changes by using <b>git add -A</b> to stage <b>ALL</b> changes.</u></li>
+            <li>After the changes are staged, we're going to commit the changes by using <b>git commit -m "commit message"</b> (add what main change you made in the commit message).</li>
+            <li>Before we push the commit to the repo, we're going to double-check if our branch is synced to the remote base branch by using <b>git pull origin main</b>.</li>
+            <li>After the local branch has synced with the remote base branch, we will push our changes to the remote branch by using <b>git push origin "branch name"</b>.</li>
             <li>After you push the branch, it should appear in GitHub as a PR! (pull request)</li>
-            <li>Finally, after all said and done, we're going to update our local repository and merge our code by navigating to our main branch by using `git checkout main` then `git pull origin main` to resync!</li>
+            <li>Finally, after all said and done, we're going to update our local repository and merge our code by navigating to our main branch by using <b>git checkout main</b> then <b>git pull origin main</b> to resync!</li>
           </ol>
       </section>
 
