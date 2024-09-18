@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -30,7 +32,10 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>A margin indicates how much space we want around the outside of an element</li>
+          <li>A padding indicates how much space we want around the content inside an element</li>
+          <li>Using the "*" selector declares that <b>ALL</b> of the elements on the page will have the style properties</li>
+          <li>display: block;: Value which assigns each image to start on a new line</li>
         </ul>
         
       </section>
@@ -38,23 +43,36 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li><b>git init:</b> Initialize an existing directory as a Git repository</li>
           <li>git status: checks what branch we are currently on</li>
+<<<<<<< HEAD
           <li>git checkout -b "branch name": creates a new branch and switches to it</li>
           <li>git checkout: Switgitch from one branch to another</li>
           <li>git commit -a: Commits files you've add with "git add"</li>
           <li>git comit -m "commit message": Commit changes to head (but not to the remote repository)</li>
           <li>git push origin master: Sends changes to the master branch of your remote repository</li>
           <li>List of basic Git commands <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">here</a></li>
+=======
+          <li><b>checkout -b "branch name":</b> Creates a new branch and switches to it</li>
+          <li><b>git add -A:</b> Adds/Stages all changes to the code to the current working branch</li>
+          <li><b>git checkout:</b> Switch from one branch to another</li>
+          <li><b>git commit -a:</b> Commits files you've add with "git add"</li>
+          <li><b>git commit -m "commit message":</b> Commit changes to head (but not to the remote repository)</li>
+          <li><b>git push origin master:</b> Sends changes to the master branch of your remote repository</li>
+          <li><b>List of basic Git commands:</b> <a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank">here</a></li>
+
+>>>>>>> e3e5eecaa30090d656b7c872d1b096978f86580e
         </ul>
         
       </section>
 
-      <section class="card" id="javascript-section"></section>
-      <h2>JavaScript</h2>
-        <ul>
-          <li>Enter your JavaScript notes here</li>
-        </ul>
-        
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+          <ul>
+            <li>A variable is a named container that allows us to store data in our code</li>
+            <li>Strict Equality "===": Operator that is used to test to see if two values are equal and of the same data type. It returns a true/false (Boolean) result</li>
+            <li>Not, Does-Not-Equal "!", "!==": Tests to see if values are <u>NOT</u> equal. Returns a "false" if value is not equal</li>
+          </ul>
       </section>
 
     </main>
@@ -62,5 +80,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
